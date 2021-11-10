@@ -12,6 +12,7 @@ const IntroBox = styled.div`
     height: 220px;
     font-size: 60px;
     font-weight: 800;
+    margin-bottom: 82px;
 `;
 
 const CyonColor = styled.span`
@@ -30,7 +31,7 @@ const TypeBox = styled.span`
         height: 100%;
         width: 100%;
         border-left: 3px solid white;
-        animation: ${TypeTexting} 2.5s steps(15) infinite;
+        animation: ${TypeTexting} 1.5s steps(15) infinite;
     }
 `;
 
@@ -40,7 +41,7 @@ const Typing = () => {
         <IntroBox>
             
                 <CyonColor>&lt;b&gt;</CyonColor>Hello<CyonColor>&lt;b&gt;</CyonColor><br />
-                <CyonColor>I'm Paul</CyonColor><br />
+                <CyonColor>I'm Paul</CyonColor>,<br />
                 <TypeBox>Web developer</TypeBox>
             
         </IntroBox>
