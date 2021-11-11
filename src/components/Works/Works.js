@@ -10,7 +10,8 @@ import TravelPlanet from "./assets/TravelPlanet.JPG";
 
 const PortfolioWrapper = styled.div`
     width: 360px;
-    height: 370px;
+    height: 440px;
+    position: relative;
 
     .TravelPlanet{ background-image: url(${TravelPlanet}) }
     .Momentum{ background-image: url(${Momentum}) }
@@ -21,12 +22,45 @@ const PortfolioWrapper = styled.div`
     
 `;
 
+const SkillsHover = styled.div`
+    position: absolute;
+    top: 0px;
+    width: 360px;
+    height: 290px;
+    background-color: #1C2133;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+`;
+
 const Thumbnail = styled.div`
     width: 360px;
     height: 290px;
     background-size: cover;
-    
+    transition: opacity 0.2s linear; 
 `;
+
+const WorkTitle = styled.div`
+    font-size: 18px;
+    font-weight: 800;
+    margin: 1.3rem 0 0.7rem 0;
+`;
+
+const Content = styled.div`
+    font-size: 14px;
+    color: #B0B3BD;
+`;
+
+const Anchor = styled.a`
+   &:hover {
+        ${SkillsHover} {
+            opacity: 0.6;
+        }; 
+        ${Thumbnail} {
+            opacity: 0.6;
+        }
+    } 
+`;
+
 
 
 const Works = () => {
@@ -34,8 +68,12 @@ const Works = () => {
     return (
        portfolios.map((portfolio, index) => (
            <PortfolioWrapper id={index}>
-               <a href={portfolio.address}><Thumbnail className={portfolio.name} /></a>
-               <span>{portfolio.name}</span>
+               <Anchor href={portfolio.address} target="_blank" rel="noreferrer noopener">
+                   <Thumbnail className={portfolio.name} />
+                   <SkillsHover>AAA</SkillsHover>
+               </Anchor>
+               <WorkTitle>{portfolio.name}</WorkTitle>
+               <Content>{portfolio.content}</Content>
            </PortfolioWrapper>
        ))
     )

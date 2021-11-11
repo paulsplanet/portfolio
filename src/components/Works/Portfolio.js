@@ -1,9 +1,34 @@
 import React from "react";
+import Works from "./Works";
+import styled from "styled-components";
+
+const PortfolioWrapper =styled.div`
+    width: 100%;
+    margin-bottom: 5rem;
+`;
+
+const WorksTitle = styled.div`
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+`;
+
+const WorksWrapper = styled.div`
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+`;
 
 const Portfolio = () => {
 
     return (
-        <div>Portfolio Here</div>
+        <PortfolioWrapper>
+            <WorksTitle>Works</WorksTitle>
+            <WorksWrapper>
+                <Works />
+            </WorksWrapper>
+        </PortfolioWrapper>
     )
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Intro from "./components/Introduction/Intro";
+import Portfolio from "./components/Works/Portfolio";
 
 const Background = styled.div`
   width: 100vw;
@@ -21,6 +22,7 @@ const App = () => {
     <Background>
       <Frame>
         <Intro />
+        <Portfolio />
       </Frame>
     </Background>
   )
