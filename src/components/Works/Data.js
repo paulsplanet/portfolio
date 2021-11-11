@@ -16,7 +16,7 @@ export const portfolios = [
     },
     {
         "name": "NewsViewer",
-        "address": "",
+        "address": "https://paulsplanet.github.io/newsviewer_introduction/",
         "skills": [ "react", "axios" ],
     },
     {
@@ -26,7 +26,7 @@ export const portfolios = [
     },
     {
         "name": "StarTalk",
-        "address": "https://fervent-northcutt-80526b.netlify.app/",
+        "address": "https://paulsplanet.github.io/startalk/",
         "skills": [ "html", "css" ],
     },
 ]
