@@ -10,7 +10,7 @@ const TypeTexting = keyframes`
 const IntroBox = styled.div`
     width: 555px;
     height: 220px;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 800;
     margin-bottom: 62px;
 `;

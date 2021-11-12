@@ -1,14 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import Intro from "./components/Introduction/Intro";
+import Skills from "./components/Skills";
 import Portfolio from "./components/Works/Portfolio";
 
 const Background = styled.div`
   width: 100vw;
-  height: 100vh;
+  
   display: flex;
   justify-content: center;
-  padding: 140px 0;
+  padding: 100px 0;
 `;
 
 const Frame = styled.div`
@@ -23,6 +24,7 @@ const App = () => {
       <Frame>
         <Intro />
         <Portfolio />
+        <Skills />
       </Frame>
     </Background>
   )

@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const PortfolioWrapper =styled.div`
     width: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 100px;
 `;
 
 const WorksTitle = styled.div`
