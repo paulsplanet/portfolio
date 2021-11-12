@@ -2,12 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const AboutMe = styled.div`
-   width: 690px;
-   height: 150px;
-   font-size: 18px;
+   width: 630px;
+   font-size: 16px;
    color: #B0B3BD;  
-   line-height: 30px; 
-   margin-bottom: 15px;
+   line-height: 26px; 
+   margin-bottom: 62px;
 `;
 
 const ButtonLinkedin = styled.button`

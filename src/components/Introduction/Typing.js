@@ -12,7 +12,7 @@ const IntroBox = styled.div`
     height: 220px;
     font-size: 60px;
     font-weight: 800;
-    margin-bottom: 82px;
+    margin-bottom: 62px;
 `;
 
 const CyonColor = styled.span`
