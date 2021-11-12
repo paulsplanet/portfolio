@@ -52,7 +52,7 @@ const Description = () => {
                 I love playing tennis with buddies. I enjoy to go to the Musemum as well.
             </AboutMe>
             <div> 
-                <a href="https://github.com/paulsplanet" target="_blank" rel="noreferrer noopner">  
+                <a href="https://www.linkedin.com/in/paulsplanet/" target="_blank" rel="noreferrer noopner">  
                     <ButtonLinkedin>LinkedIn</ButtonLinkedin>
                 </a>
                 

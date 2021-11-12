@@ -61,13 +61,13 @@ const Footer = () => {
                 </FooterContent>
                 <FooterContent>
                     <FooterContentTitle>LinkedIn</FooterContentTitle>
-                    <FooterLink href="https://www.linkedin.com/in/paulsplanet/" target="_blank">
+                    <FooterLink href="https://www.linkedin.com/in/paulsplanet/" target="_blank" rel="noreferrer noopner">
                         <FooterContentInfo>www.linkedin.com/in/paulsplanet</FooterContentInfo>
                     </FooterLink>
                 </FooterContent>
                 <FooterContent>
                     <FooterContentTitle>Github</FooterContentTitle>
-                    <FooterLink href="https://github.com/paulsplanet" target="_blank">
+                    <FooterLink href="https://github.com/paulsplanet" target="_blank" rel="noreferrer noopner">
                         <FooterContentInfo>github.com/paulsplanet</FooterContentInfo>
                     </FooterLink>
                 </FooterContent>
