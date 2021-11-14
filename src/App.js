@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Intro from "./components/Introduction/Intro";
 import Skills from "./components/Skills";
-import Footer from "./components/Works/Footer";
+import Footer from "./components/Footer";
 import Portfolio from "./components/Works/Portfolio";
 
 const Background = styled.div`
