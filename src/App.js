@@ -6,16 +6,23 @@ import Footer from "./components/Works/Footer";
 import Portfolio from "./components/Works/Portfolio";
 
 const Background = styled.div`
-  width: 100vw;
-  
+  width: 100%; 
   display: flex;
   justify-content: center;
   padding: 100px 0;
+
+  @media (max-width: 428px) {
+    padding: 40px 24px;
+  }
 `;
 
 const Frame = styled.div`
   width: 1140px;
-  margin: 0 auto;
+   
+  @media (max-width: 428px) {
+    width: 100%;
+    
+  }
 `;
 
 const App = () => {
