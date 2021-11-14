@@ -15,6 +15,10 @@ const WorksTitle = styled.div`
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 2rem;
+
+    @media (max-width: 428px) {
+        font-size: 32px;
+    }
 `;
 
 const WorksWrapper = styled.div`
