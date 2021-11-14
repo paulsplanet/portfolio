@@ -9,6 +9,11 @@ const FooterTitle = styled.div`
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 40px;
+
+    @media (max-width: 428px) {
+        font-size: 28px;
+        margin-bottom: 36px;
+    }
 `;
 
 const FooterContentWrapper = styled.div`
@@ -16,6 +21,12 @@ const FooterContentWrapper = styled.div`
     flex-wrap: wrap;
     width: 80%;
     justify-content: space-between;
+
+    @media (max-width: 428px) {
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+    }
 `;
 
 const FooterContent = styled.div`
@@ -27,11 +38,19 @@ const FooterContent = styled.div`
     .nodeco {
         text-decoration: none;
     }
+
+    @media (max-width: 428px) {
+        margin-bottom: 16px;
+    }
 `;
 
 const FooterContentTitle = styled.div`
     color: #B0B3BD;
     font-size: 20px;
+
+    @media (max-width: 428px) {
+        font-size: 14px;
+    }
 `;
 
 const FooterContentInfo = styled.div`
@@ -40,6 +59,11 @@ const FooterContentInfo = styled.div`
     text-decoration: underline;
     position: absolute;
     left: 110px;
+
+    @media (max-width: 428px) {
+        font-size: 14px;
+        left: 80px;
+    }
 `;
 
 const FooterLink =styled.a`
