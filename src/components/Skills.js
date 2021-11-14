@@ -26,7 +26,8 @@ const SkillsTitle = styled.div`
     margin-bottom: 55px;
 
     @media (max-width: 428px) {
-        font-size: 32px;
+        font-size: 28px;
+        margin-bottom: 32px;
     }
 `;
 

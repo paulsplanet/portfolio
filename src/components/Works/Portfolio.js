@@ -7,7 +7,7 @@ const PortfolioWrapper =styled.div`
     margin-bottom: 100px;
 
     @media (max-width: 428px) {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 `;
 
@@ -17,7 +17,7 @@ const WorksTitle = styled.div`
     margin-bottom: 2rem;
 
     @media (max-width: 428px) {
-        font-size: 32px;
+        font-size: 28px;
     }
 `;
 

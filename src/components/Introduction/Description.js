@@ -10,6 +10,7 @@ const AboutMe = styled.div`
 
    @media (max-width: 428px) {
        width: 100%;
+       margin-bottom: 40px;
    }
 `;
 
