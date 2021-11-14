@@ -5,6 +5,10 @@ import styled from "styled-components";
 const PortfolioWrapper =styled.div`
     width: 100%;
     margin-bottom: 100px;
+
+    @media (max-width: 428px) {
+        margin-bottom: 60px;
+    }
 `;
 
 const WorksTitle = styled.div`

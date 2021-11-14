@@ -29,6 +29,9 @@ const PortfolioWrapper = styled.div`
     .PlanetBlog{ background-image: url(${PlanetBlog}) }
     .StarTalk{ background-image: url(${StarTalk}) }
     
+    @media (max-width: 428px) {
+        width: 100%;
+    }
 `;
 
 const HoverWrapper = styled.div`
@@ -48,6 +51,10 @@ const HoverWrapper = styled.div`
     .mongodb { background-image: url(${mongodb}) }
     .nodejs { background-image: url(${nodejs}); width: 90px }
     .redux { background-image: url(${redux}) }
+
+    @media (max-width: 428px) {
+        width: 100%;
+    }
 `;
 
 const SkillsHover = styled.div`
@@ -87,6 +94,10 @@ const Thumbnail = styled.div`
     height: 290px;
     background-size: cover;
     transition: opacity 0.2s linear; 
+
+    @media (max-width: 428px) {
+        width: 100%;
+    }
 `;
 
 const WorkTitle = styled.div`

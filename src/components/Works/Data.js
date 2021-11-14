@@ -3,7 +3,7 @@ export const portfolios = [
         "name": "TravelPlanet",
         "address": "https://vigorous-cori-21594f.netlify.app/",
         "skills": [ "react", "redux", "mongodb", "nodejs" ],
-        "content": "Login with { id: guest@gmail.com, password: 123123 }, you can find Cart, Mypick, Hisotry and etc.",
+        "content": "Login with { id: guest@gmail.com, password: 123123 }, you can find Cart, Mypick, Hisotry and etc. Please wait about 30 to 60 seconds till server wakes up.",
     },
     {
         "name": "PlanetBlog",
