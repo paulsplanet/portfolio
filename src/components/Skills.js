@@ -14,12 +14,20 @@ import github from "./Icons/github.svg";
 
 const SkillsWrapper = styled.div`
     margin-bottom: 100px;
+
+    @media (max-width: 428px) {
+        margin-bottom: 60px;
+    }
 `;
 
 const SkillsTitle = styled.div`
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 55px;
+
+    @media (max-width: 428px) {
+        font-size: 32px;
+    }
 `;
 
 const IconWrapper = styled.div`
@@ -27,6 +35,11 @@ const IconWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @media (max-width: 428px) {
+        width: 100%;
+        justify-content: start;
+    }
 `;
 const SkillBox = styled.div`
     width: 80px;
@@ -46,6 +59,12 @@ const SkillBox = styled.div`
     .redux { background-image: url(${redux}) }
     .sass { background-image: url(${sass}) }
     .github { background-image: url(${github}) }
+
+    @media (max-width: 428px) {
+        width: 45px;
+        height: 65px;
+        margin: 0 35px 15px 0;
+    }
 `;
 
 const Icon = styled.div`
