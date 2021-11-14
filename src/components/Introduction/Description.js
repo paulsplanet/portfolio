@@ -7,6 +7,10 @@ const AboutMe = styled.div`
    color: #B0B3BD;  
    line-height: 26px; 
    margin-bottom: 62px;
+
+   @media (max-width: 428px) {
+       width: 100%;
+   }
 `;
 
 const ButtonLinkedin = styled.button`
@@ -23,6 +27,10 @@ const ButtonLinkedin = styled.button`
     &:hover {
         background-color: #EEE;
     }
+
+    @media (max-width: 428px) {
+        width: 140px;
+    }
 `;
 
 const ButtonEmail = styled.button`
@@ -38,6 +46,10 @@ const ButtonEmail = styled.button`
 
     &:hover {
         background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    @media (max-width: 428px) {
+        width: 140px;
     }
 `;
 

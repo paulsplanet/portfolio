@@ -2,8 +2,11 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 
 const TypeTexting = keyframes`
+    50%{
+        left: 108%
+    }
     100%{
-            left: 108%;
+            left: 0%;
         }
 `;
 
@@ -13,6 +16,13 @@ const IntroBox = styled.div`
     font-size: 55px;
     font-weight: 800;
     margin-bottom: 62px;
+
+    @media (max-width: 428px) {
+    width: 100%;
+    font-size: 35px;
+    height: 130px;
+    margin-bottom: 20px;
+  }
 `;
 
 const CyonColor = styled.span`
@@ -31,7 +41,7 @@ const TypeBox = styled.span`
         height: 100%;
         width: 100%;
         border-left: 3px solid white;
-        animation: ${TypeTexting} 1.5s steps(15) infinite;
+        animation: ${TypeTexting} 2s steps(15) infinite;
     }
 `;
 

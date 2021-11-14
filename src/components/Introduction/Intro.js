@@ -7,6 +7,10 @@ import topimage from "../Icons/topimage.png";
 const IntroWrapper = styled.div`
     padding-bottom: 180px;
     position: relative;
+
+    @media (max-width: 428px) {
+        width: 100%;
+    }
 `;
 
 const Profile = styled.div`
