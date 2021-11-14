@@ -10,6 +10,7 @@ const IntroWrapper = styled.div`
 
     @media (max-width: 428px) {
         width: 100%;
+        padding-bottom: 120px;
     }
 `;
 
