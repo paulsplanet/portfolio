@@ -13,6 +13,7 @@ const Background = styled.div`
 
   @media (max-width: 428px) {
     padding: 40px 24px;
+    overflow-x: hidden;
   }
 `;
 

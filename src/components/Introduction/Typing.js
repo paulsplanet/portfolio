@@ -10,6 +10,30 @@ const TypeTexting = keyframes`
         }
 `;
 
+const Escalating = keyframes`
+    33%{
+        top: -70px;
+        }
+    66%{
+        top: -140px;
+        }
+    100%{
+        top: -210px;
+    }
+`;
+
+const MobileEscalating = keyframes`
+    33%{
+        top: -60px;
+        }
+    66%{
+        top: -120px;
+        }
+    100%{
+        top: -180px;
+    }
+`;
+
 const IntroBox = styled.div`
     width: 555px;
     height: 220px;
@@ -27,10 +51,28 @@ const IntroBox = styled.div`
 
 const CyonColor = styled.span`
     color: #5AFFC4;
+    overflow: hidden;
+`;
+
+const TypeBoxWrapper = styled.div`
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+    position: relative;
+
+    @media (max-width: 428px) {
+        height: 60px;
+        line-height: 60px;
+    }
+    
 `;
 
 const TypeBox = styled.span`
     position: relative;
+    animation: ${Escalating} 6s steps(1) infinite;
+    @media (max-width: 428px) {
+        animation: ${MobileEscalating} 6s steps(1) infinite;
+    }
     
     &:after {
         content: "";
@@ -52,8 +94,12 @@ const Typing = () => {
             
                 <CyonColor>&lt;b&gt;</CyonColor>Hello<CyonColor>&lt;b&gt;</CyonColor><br />
                 <CyonColor>I'm Paul</CyonColor>,<br />
-                <TypeBox>Web developer</TypeBox>
-            
+                <TypeBoxWrapper>
+                    <TypeBox>Web developer</TypeBox><br />
+                    <TypeBox>Tennis Lover</TypeBox><br />
+                    <TypeBox>Self developing</TypeBox><br />
+                </TypeBoxWrapper>
+
         </IntroBox>
     )
 }
