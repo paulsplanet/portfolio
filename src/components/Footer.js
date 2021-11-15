@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import resume from "./Resume/PaulHahm_Resume.pdf";
 
 const FooterWrapper = styled.div`
     padding-bottom: 70px;
@@ -97,7 +98,7 @@ const Footer = () => {
                 </FooterContent>
                 <FooterContent>
                     <FooterContentTitle>Resume</FooterContentTitle>
-                    <FooterLink href="" download>
+                    <FooterLink href={resume} target="_blank">
                         <FooterContentInfo>Download</FooterContentInfo>
                     </FooterLink>
                 </FooterContent>
