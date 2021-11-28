@@ -61,8 +61,8 @@ const Description = () => {
             <AboutMe>
                 I'm Paul. I create different types of websites. <br />
                 I love to learn everything about <span style={{ color: "white" }}>Web Development</span>, specially on Javascript.<br />
-                Right now, I'm learning JS &amp; React and looking forward on creating Web Applications sometimes in the future. <br />
-                I love playing tennis with buddies. I enjoy to go to the Musemum as well.
+                Right now, I'm learning JS &amp; React and looking forward on creating favorable Web Applications. <br />
+                I love playing tennis with buddies. I enjoy to go to the Museum as well.
             </AboutMe>
             <div> 
                 <a href="https://www.linkedin.com/in/paulsplanet/" target="_blank" rel="noreferrer noopner">  
