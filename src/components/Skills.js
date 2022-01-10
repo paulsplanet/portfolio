@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-
 import react from "./Icons/react.svg";
 import axios from "./Icons/axios.svg";
 import css from "./Icons/css.svg";
